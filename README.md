@@ -1,4 +1,4 @@
-<div align="center">
+﻿<div align="center">
 
   <img src="assets/icon.png" alt="ggst-clipper Logo" width="240" height="240" />
 
@@ -11,15 +11,15 @@
   </p>
 
   <p align="center">
-    <a href="https://github.com/2shi0/ggst-cliper/releases"><img src="https://img.shields.io/github/v/release/2shi0/ggst-cliper?logo=github" alt="Release" /></a>
-    <a href="https://github.com/2shi0/ggst-cliper/actions/workflows/release.yml"><img src="https://img.shields.io/github/actions/workflow/status/2shi0/ggst-cliper/release.yml?logo=githubactions&logoColor=white&label=Build" alt="Build Status" /></a>
+    <a href="https://github.com/2shi0/ggst-clipper/releases"><img src="https://img.shields.io/github/v/release/2shi0/ggst-clipper?logo=github" alt="Release" /></a>
+    <a href="https://github.com/2shi0/ggst-clipper/actions/workflows/release.yml"><img src="https://img.shields.io/github/actions/workflow/status/2shi0/ggst-clipper/release.yml?logo=githubactions&logoColor=white&label=Build" alt="Build Status" /></a>
     <a href="http://www.wtfpl.net/"><img src="https://img.shields.io/badge/License-WTFPL-brightgreen.svg" alt="License: WTFPL" /></a>
-    <a href="https://github.com/2shi0/ggst-cliper/releases"><img src="https://img.shields.io/github/downloads/2shi0/ggst-cliper/total?logo=github" alt="Downloads" /></a>
-    <a href="https://github.com/2shi0/ggst-cliper/stargazers"><img src="https://img.shields.io/github/stars/2shi0/ggst-cliper?logo=github" alt="Stars" /></a>
+    <a href="https://github.com/2shi0/ggst-clipper/releases"><img src="https://img.shields.io/github/downloads/2shi0/ggst-clipper/total?logo=github" alt="Downloads" /></a>
+    <a href="https://github.com/2shi0/ggst-clipper/stargazers"><img src="https://img.shields.io/github/stars/2shi0/ggst-clipper?logo=github" alt="Stars" /></a>
   </p>
 
   <p align="center">
-    <a href="https://github.com/2shi0/ggst-cliper/releases/latest">
+    <a href="https://github.com/2shi0/ggst-clipper/releases/latest">
       <img src="https://img.shields.io/badge/Download_Latest_Release-0078D4?style=for-the-badge&logo=windows&logoColor=white" alt="Download Latest Release" />
     </a>
   </p>
@@ -51,14 +51,14 @@ winget install ffmpeg
 ## 📥 Installation / インストール
 
 ### 方法 1: インストーラーを使用（推奨）
-1. [Releases ページ](https://github.com/2shi0/ggst-cliper/releases) から最新バージョンのインストーラー（`ggst-clipper-setup-*.exe`）をダウンロードします。
+1. [Releases ページ](https://github.com/2shi0/ggst-clipper/releases) から最新バージョンのインストーラー（`ggst-clipper-setup-*.exe`）をダウンロードします。
 2. インストーラーを実行して画面の指示に従いセットアップを完了します。
 
 ### 方法 2: ソースコードからビルド
 ```powershell
 # リポジトリのクローン
-git clone https://github.com/2shi0/ggst-cliper.git
-cd ggst-cliper
+git clone https://github.com/2shi0/ggst-clipper.git
+cd ggst-clipper
 
 # リリースビルドの実行
 cargo build --release
